@@ -33,9 +33,7 @@
  	-moz-transform-style: preserve-3d; 
  	-webkit-perspective: 7500; 
 	-moz-perspective: 7500; 
-/*	-webkit-animation: rot_one 6s linear infinite ;
-	-moz-animation: rot_one 6s linear infinite ;*/
-/*	-webkit-transform:rotateX(-90deg);
+	/*-webkit-transform:rotateX(-90deg);
  	-moz-transform:rotateX(-90deg);*/
 }
 .three_d_box_2{
@@ -43,30 +41,50 @@
 	width: 100px; 
 	height: 100px;
 	left: -200px;
+	-webkit-transform-style: preserve-3d;
+ 	-moz-transform-style: preserve-3d; 
+ 	-webkit-perspective: 7500; 
+	-moz-perspective: 7500;	
 }
 .three_d_box_3{
 	position: absolute;
 	width: 100px; 
 	height: 100px;
 	left: -60px;
+	-webkit-transform-style: preserve-3d;
+ 	-moz-transform-style: preserve-3d; 
+ 	-webkit-perspective: 7500; 
+	-moz-perspective: 7500;
 }
 .three_d_box_4{
 	position: absolute;
 	width: 100px; 
 	height: 100px;
 	left: 60px;
+	-webkit-transform-style: preserve-3d;
+ 	-moz-transform-style: preserve-3d; 
+ 	-webkit-perspective: 7500; 
+	-moz-perspective: 7500;
 }
 .three_d_box_5{
 	position: absolute;
 	width: 100px; 
 	height: 100px;
 	left: 200px;
+	-webkit-transform-style: preserve-3d;
+ 	-moz-transform-style: preserve-3d; 
+ 	-webkit-perspective: 7500; 
+	-moz-perspective: 7500;
 }
 .three_d_box_6{
 	position: absolute;
 	width: 100px; 
 	height: 100px;
 	left: 320px;
+	-webkit-transform-style: preserve-3d;
+ 	-moz-transform-style: preserve-3d; 
+ 	-webkit-perspective: 7500; 
+	-moz-perspective: 7500;
 }
 .three_d_before{
 	border:1px solid black;
