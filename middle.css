@@ -20,7 +20,7 @@
 }
 .three_d_box_1,.three_d_box_2,.three_d_box_3,.three_d_box_4,.three_d_box_5,.three_d_box_6{
 	text-align: center;
- 	font-size: 50px;
+ 	font-size: 60px;
  	line-height: 100px;
  	font-weight: 700;
 }
@@ -146,21 +146,11 @@
 }
 @-webkit-keyframes 'rot'{
 	0%{
-		-webkit-transform: rotateY(-10deg) rotateX(-10deg); 
-		-moz-transform: rotateY(-10deg) rotateX(-10deg);
+		-webkit-transform: rotateY(-20deg) rotateX(0deg); 
+		-moz-transform: rotateY(-20deg) rotateX(0deg);
 	}
 	100%{
-		-webkit-transform: rotateY(0deg) rotateX(0deg); 
-		-moz-transform: rotateY(0deg) rotateX(0deg);
+		-webkit-transform: rotateY(0deg) rotateX(-10deg); 
+		-moz-transform: rotateY(0deg) rotateX(-10deg);
 	}
 }
-/*@-webkit-keyframes 'rot_one'{
-	0%{
-		-webkit-transform:rotateX(0deg); 
-		-moz-transform:rotateX(0deg);
-	}
-	100%{
-		-webkit-transform:rotateX(-360deg); 
-		-moz-transform:rotateX(-360deg);
-	}
-}*/
